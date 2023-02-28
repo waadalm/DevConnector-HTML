@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<HTML>
+
+<HEAD>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <!-- raleway font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway"
+      rel="stylesheet"
+    /> 
+    <!-- this page is linked to a stylesheet, informing that it will have a text or css based content,,,, (../) is the code to select the location of the file -->
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+
+<TITLE>DevConnector</TITLE>
+</HEAD>
+
+<BODY>
+<nav class="navbar bg-dark"> 
+<a href="index.html"><i class="far fa-thin fa-heart"></i> DevConnector </a>
+<a href="">Developers </a>
+<a href="Register.html">Register</a>
+<a href="">Login </a>
+</nav>
+<section> 
+    <h1 class="large text-primary">Create Your Profile </h1>
+    <h4>Let's get some information to make your profile stand out </h4>
+    <h6>* Required field</h6>
+        <!-- to create the drop down list-->
+        <select name="status"> 
+            <option value="0"> * Select Professional Status </option>
+            <option> Developer </option>
+            <option> Junior Developer </option>
+            <option> Senior Developer </option>
+            <option> Manager </option>
+            <option> Student or Learning </option>
+            <option> Instructor or Teacher </option>
+            <option> Intern </option>
+            <option> Other </option>
+        </select>
+        
+        <!-- a form tag to create a form--> 
+    <form>
+        
+        <input type="text" placeholder="company" name="company"/>
+        <h6>* Could be your own company or one you work for</h6>
+
+        <input type="text" placeholder="Website" name="Website"/>
+        <h6>* Could be your own or a company website</h6>
+
+        <input type="text" placeholder="Location" name="Location"/>
+        <h6>* City & state suggestes</h6>
+
+        <input type="text" placeholder="Skills" name="Skills"/>
+        <h6>* Pleases use comma separated value</h6>
+        
+        <input type="text" placeholder="Github Username" name="Github Username"/>
+        <h6>* if you want youe latest repos and a Github link. include your username</h6>
+
+        <!--textarea uses to be able to write multible lines.-->
+        <textarea placeholder="a short bio of yourself" name="bio"></textarea>
+        <h6>* Tell us a little about yourself</h6>
+        <button type="button"> Add social network link</button> 
+        <span> Optional </span>
+        <div><input type="text" placeholder="Twitter URL" name="Twitter"/></div>
+       <div?><input type="text" placeholder="Facebook URL" name="Facebook"/></div>
+        <div><input type="text" placeholder="YouTube URL" name="YouTube"/></div>
+        <div><input type="text" placeholder="Linkedin URL" name="Linkedin"/></div>
+        <div><input type="text" placeholder="Instgrame URL" name="Instgrame"/></div>
+    </form>
+</section> 
+<footer> &copy; &trade; www.eibfs.com</footer>
+</BODY>
+</HTML>
